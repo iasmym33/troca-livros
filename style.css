@@ -264,10 +264,31 @@ a{
 }
 .footer-linha{
     max-width: 70vw;
-    margin: 0 auto;
+    margin: 20px auto;
+    border: 1px solid;
 }
 
-..footer-copy{
+.footer-copy{
     margin-top: 20px;
     text-align: center;
+    font-size: 22px;
+}
+ 
+ 
+.footer-social i {
+    font-size: 32px;
+}
+ 
+ 
+.footer-social i:hover{
+    color: var(--laranja-principal);
+    transform: scale(1.1);
+}
+ 
+ 
+.footer-coluna  a:hover {
+    color: var(--laranja-principal);
+    font-weight: 600;
+    box-sizing: border-box;
+ 
 }

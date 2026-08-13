@@ -1,0 +1,17 @@
+@import url(style.css);
+
+main{
+    width: 1142px;
+    height: 422px;
+    border: 2px solid violet;
+    margin: 10vh auto;
+    background-image: linear-gradient(rgb(253, 4, 253), rgb(160, 120, 233));
+    display: flex;
+}
+
+.sessao-imagem {
+    width: 512px;
+    height: 422px
+    display: flex;
+}
+
